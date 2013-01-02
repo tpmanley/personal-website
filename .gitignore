@@ -1,0 +1,11 @@
+# Buildout files
+.installed.cfg
+bin/
+eggs/
+
+
+.project
+.pydevproject
+
+*.pyc
+*.bak
