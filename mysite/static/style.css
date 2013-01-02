@@ -31,10 +31,9 @@ a {
     font-size:11px;
     text-decoration:none;
     font-weight:600;
-    font-family:verdana, arial, helvetica, sans-serif;
     }
 a:link {color:#09c;}
-a:visited {color:#07a;}
+a:visited {color:#09c;}
 a:hover {background-color:#eee;}
 
 #header {
@@ -47,6 +46,8 @@ a:hover {background-color:#eee;}
     border-width:1px 0px; /* top and bottom borders: 1px; left and right borders: 0px */
     line-height:11px;
     background-color:#eee;
+    color:#07a;
+    font-weight:600;
 
 /* Here is the ugly brilliant hack that protects IE5/Win from its own stupidity. 
 Thanks to Tantek Celik for the hack and to Eric Costello for publicizing it. 
@@ -95,4 +96,9 @@ body>#menu {width:150px;}
     list-style-type:none;
     margin:0;
     padding:0;
+}
+
+#footer {
+    margin:0px;
+    padding:10px;
 }

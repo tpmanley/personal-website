@@ -8,14 +8,23 @@
     <div id="header">
       Tom Manley's website - {% block header %}{% endblock header %}
     </div>
+    
     <div id="menu">
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/about">About Me</a></li>
       </ul>
     </div>
+    
     <div id="content">
       {% block body %}{% endblock body %}
     </div><!--content-->
+    
+    <div id="footer">
+      This site was created using <a href="http://flask.pocoo.org">Flask</a>, 
+      <a href="http://jinja.pocoo.org">Jinja2</a> and <a href="http://www.buildout.org/">
+      Buildout</a><br/>
+      Copyright 2013 - Tom Manley
+    </div>
   </body>
 </html>
