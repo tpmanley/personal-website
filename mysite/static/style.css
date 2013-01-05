@@ -1,20 +1,21 @@
 body {
-    margin:0px;
+    margin: 0px;
     width: 800px;
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    padding:0px;
-    font-family:verdana, arial, helvetica, sans-serif;
-    color:#333;
-    background-color:white;
+    padding: 0px;
+    font-size: 11px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    color: #333;
+    background-color: white;
     }
 
 h1 {
     margin:0px 0px 15px 0px;
     padding:0px;
-    font-size:28px;
-    line-height:28px;
+    font-size:16px;
+    line-height:20px;
     font-weight:900;
     color:#ccc;
     }
@@ -22,14 +23,13 @@ h1 {
 h2 {
     margin:0px 0px 15px 0px;
     padding:0px;
-    font-size:20px;
-    line-height:20px;
-    font-weight:900;
+    font-size:16px;
+    line-height:16px;
+    font-weight:500;
     color:#ccc;
     }
     
 p {
-    font:11px/20px verdana, arial, helvetica, sans-serif;
     margin:0px 0px 16px 0px;
     padding:0px;
     }
@@ -47,16 +47,17 @@ a:hover {background-color:#eee;}
 
 #header {
     margin:50px 0px 10px 0px;
-    padding:17px 0px 10px 20px;
+    padding:5px 0px 10px 20px;
     /* For IE5/Win's benefit height = [correct height] + [top padding] + [top and bottom border widths] */
     height:33px; /* 14px + 17px + 2px = 33px */
     border-style:solid;
-    border-color:black;
-    border-width:1px 0px; /* top and bottom borders: 1px; left and right borders: 0px */
-    line-height:11px;
+    border-color: #999;
+    border-width: 1px 0px; /* top and bottom borders: 1px; left and right borders: 0px */
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
     background-color:#eee;
     color:#07a;
-    font-weight:600;
 
 /* Here is the ugly brilliant hack that protects IE5/Win from its own stupidity. 
 Thanks to Tantek Celik for the hack and to Eric Costello for publicizing it. 
@@ -78,11 +79,12 @@ body>#header {height:14px;}
     padding:10px;
     }
 */
+
 #content {
-background-color: #ffffff;
-padding: 0px;
-margin-left: 200px;
-margin-right: 0px;
+    background-color: #ffffff;
+    padding: 0px;
+    margin-left: 200px;
+    margin-right: 0px;
 }
 
 #menu {
@@ -108,6 +110,11 @@ body>#menu {width:150px;}
 }
 
 #footer {
-    margin:0px;
+    margin-top: 20px;
     padding:10px;
-}
+    border-style:solid;
+    border-color: #999;
+    border-width: 1px 0px 0px; /* top and bottom borders: 1px; left and right borders: 0px */
+    font-size: 10px;
+    text-align: center;
+ }
