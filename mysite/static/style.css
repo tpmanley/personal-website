@@ -18,13 +18,22 @@ h1 {
     font-weight:900;
     color:#ccc;
     }
+    
+h2 {
+    margin:0px 0px 15px 0px;
+    padding:0px;
+    font-size:20px;
+    line-height:20px;
+    font-weight:900;
+    color:#ccc;
+    }
+    
 p {
     font:11px/20px verdana, arial, helvetica, sans-serif;
     margin:0px 0px 16px 0px;
     padding:0px;
     }
-#content>p {margin:0px;}
-#content>p+p {text-indent:30px;}
+#content>p {margin:10px;}
 
 a {
     color:#09c;
