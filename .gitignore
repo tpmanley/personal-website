@@ -3,9 +3,13 @@
 bin/
 eggs/
 
+# Virtualenv
+env/
 
+# Pydev
 .project
 .pydevproject
 
+# Assorted
 *.pyc
 *.bak
