@@ -17,7 +17,7 @@
   </head>
   <body>
     <div id="header">
-      Tom Manley's website - {% block header %}{% endblock header %}
+      {% block header %}{% endblock header %}
     </div>
     
     <div id="menu">
@@ -32,8 +32,7 @@
     </div><!--content-->
     
     <div id="footer">
-      This site was created with Flask<br/>
-      Copyright 2013 - Tom Manley
+      {% block footer %}{% endblock footer %}
     </div>
   </body>
 </html>
