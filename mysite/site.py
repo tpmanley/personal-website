@@ -1,16 +1,22 @@
 import os
 from flask import Flask
 from flask import render_template
+from flask_flatpages import FlatPages
+
+FLATPAGES_EXTENSION = '.md'
 
 app = Flask(__name__)
+app.config.from_object(__name__)
+pages = FlatPages(app)
 
 @app.route("/")
 def index():
-    return render_template('index.html')
+    return page('home')
 
-@app.route("/about")
-def about():
-    return render_template('about.html')
+@app.route('/<path:path>/')
+def page(path):
+    page = pages.get_or_404(path)
+    return render_template('page.html', page=page)
 
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 5000))
