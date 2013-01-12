@@ -73,7 +73,7 @@ because new breweries are opening all the time. Some of my favorite breweries ar
 
 
 
-[spec]: http://spectrumdsi.com/
+[spec]: http://www.spectrumdsi.com/
 [blazar]: http://www.blazarfc.com/
 [508]: http://www.bar508.com/
 [luce]: http://pizzaluce.com/
