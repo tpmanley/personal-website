@@ -117,4 +117,13 @@ body>#menu {width:150px;}
     border-width: 1px 0px 0px; /* top and bottom borders: 1px; left and right borders: 0px */
     font-size: 10px;
     text-align: center;
- }
+}
+
+ .date {
+    font-size: 10px;
+}
+ 
+ .entry {
+    margin-top: 20px;
+}
+ 
