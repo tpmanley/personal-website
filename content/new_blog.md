@@ -1,5 +1,5 @@
-title: First Post
-date: 2013-01-13
+Title: First Post
+Date: 2013-01-13
 
 This is the first post on my new blog. I decided to roll my own
 blog engine by hand for the experience. I first considered using

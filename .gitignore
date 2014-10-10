@@ -13,3 +13,5 @@ env/
 # Assorted
 *.pyc
 *.bak
+output/
+cache/
