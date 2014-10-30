@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Tom Manley'
 SITENAME = u'Tom Manley'
-SITEURL = 'thomasmanley.org'
+SITEURL = ''
 
 PATH = 'content'
 
@@ -12,7 +12,7 @@ TIMEZONE = 'America/Chicago'
 
 DEFAULT_LANG = u'en'
 
-DEFAULT_CATEGORY = 'Dev'
+DEFAULT_CATEGORY = 'Blog'
 
 ARTICLE_URL = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
