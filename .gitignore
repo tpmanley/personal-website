@@ -6,9 +6,10 @@ eggs/
 # Virtualenv
 env/
 
-# Pydev
+# IDE
 .project
 .pydevproject
+.idea/
 
 # Assorted
 *.pyc
