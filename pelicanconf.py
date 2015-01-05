@@ -33,7 +33,6 @@ GITHUB_URL = 'https://github.com/tpmanley'
 SOCIAL = (('Twitter', 'https://twitter.com/tpmanley'),
           ('Github', 'https://github.com/tpmanley'),
           ('LinkedIn', 'https://www.linkedin.com/in/tpmanley/'),)
-GOOGLE_ANALYTICS = "UA-37272590-1"
 
 DEFAULT_PAGINATION = False
 
