@@ -14,7 +14,7 @@ for Python version and architecture as appropriate):
 
     easy_install http://www.voidspace.org.uk/downloads/pycrypto26/pycrypto-2.6.win32-py2.7.exe
 
-The site can be built and served on [http://localhost:5001](http://localhost:5001) with the command:
+The site can be built and served on [http://localhost:8000](http://localhost:8000) with the command:
 
     fab reserve
 
