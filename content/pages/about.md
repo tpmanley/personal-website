@@ -3,7 +3,7 @@ date: 2015-01-15
 
 This site is mainly for myself to document my learning and personal projects. A hoped for side-effect of writing more
 is that my writing will improve from its current abysmal state. I'm the Manager of Software Engineering at
-[Etherios Wireless Design Services](http://www.etherios.com/services/wireless_design) and the blog topics will often
+[Dig Wireless Design Services](http://www.digi.com/wds) and the blog topics will often
 relate to the technology we use there. My team handles the Embedded Linux and Android kernel, driver, bootloader,
 BSP and application development for custom or existing hardware platforms. We specialize in quick turn product development
 with a focus on wireless technologies like cellular, Wi-Fi, Bluetooth classic and low-energy, ZigBee and GPS.
